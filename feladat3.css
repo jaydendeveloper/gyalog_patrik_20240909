@@ -14,14 +14,17 @@ body{
     height: 300px;
     width: 100%;
 }
+
 .d1{
     background-color: green;
     flex: 1;
 }
+
 .d2{
     background-color: yellow;
     flex: 2;
 }
+
 .d3{
     background-color: purple;
     flex: 1;
