@@ -11,18 +11,22 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    
     height: 300px;
-    width: 100%;
+    width: 300px;
 }
 .d1{
     background-color: green;
     flex: 1;
+    order: 1;
 }
 .d2{
     background-color: yellow;
     flex: 2;
+    order: 3;
 }
 .d3{
     background-color: purple;
     flex: 1;
+    order: 2;
 }
