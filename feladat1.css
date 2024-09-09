@@ -7,3 +7,22 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+}
+
+.d1{
+    background-color: green;
+    flex: 1;
+}
+.d2{
+    background-color: yellow;
+    flex: 1;
+}
+.d3{
+    background-color: purple;
+    flex: 1;
+}
